@@ -85,12 +85,4 @@ The project includes a Power BI file (`visualizations.pbix`) for data visualizat
 
 ### Example visualizations
 
-![dashboard image](/visualizations/images/visualizations-1.svg)
-![visualizations-2 image](/visualizations/images/visualizations-2.svg)
-![visualizations-3 image](/visualizations/images/visualizations-3.svg)
-![visualizations-4 image](/visualizations/images/visualizations-4.svg)
-![visualizations-5 image](/visualizations/images/visualizations-5.svg)
-![visualizations-6 image](/visualizations/images/visualizations-6.svg)
-![visualizations-7 image](/visualizations/images/visualizations-7.svg)
-![visualizations-8 image](/visualizations/images/visualizations-8.svg)
-![visualizations-9 image](/visualizations/images/visualizations-9.svg)
+<a href="/visualizations/visualizations.pdf">See visualizations.pdf</a>

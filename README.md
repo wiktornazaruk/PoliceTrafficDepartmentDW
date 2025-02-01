@@ -85,4 +85,4 @@ The project includes a Power BI file (`visualizations.pbix`) for data visualizat
 
 ### Example visualizations
 
-<a href="/visualizations/visualizations.pdf" target="_blank">See visualizations.pdf</a>
+<a href="/visualizations/visualizations.pdf" target="_blank" rel="noopener noreferrer">See visualizations.pdf</a>

@@ -114,6 +114,10 @@ sizedf <- data.frame(
   Size = c(msize, rsize, masize)
 )
 sizedf
+#                     Type  Size
+# 1                  MOLAP 71.29
+# 2                  ROLAP  9.04
+# 3 MOLAP WITH AGGREGATION 82.11
 
 # cube processing times data frame 
 cptdf <- data.frame(
@@ -122,6 +126,10 @@ cptdf <- data.frame(
   Sd = c(sd(mcpt), sd(rcpt), sd(macpt))
 )
 cptdf
+#                     Type    Mean        Sd
+# 1                  MOLAP 37834.8 10302.240
+# 2                  ROLAP  7804.2  3609.134
+# 3 MOLAP WITH AGGREGATION 57291.5  8412.245
 
 # 1 query execution times data frame
 q1df <- data.frame(
@@ -130,6 +138,10 @@ q1df <- data.frame(
   Sd = c(sd(mq1), sd(rq1), sd(maq1))
 )
 q1df
+#                     Type  Mean         Sd
+# 1                  MOLAP 179.8  14.581571
+# 2                  ROLAP 710.3 304.270731
+# 3 MOLAP WITH AGGREGATION  29.6   6.292853
 
 # 2 query execution times data frame
 q2df <- data.frame(
@@ -138,6 +150,10 @@ q2df <- data.frame(
   Sd = c(sd(mq2), sd(rq2), sd(maq2))
 )
 q2df
+#                     Type  Mean         Sd
+# 1                  MOLAP 162.4   8.154072
+# 2                  ROLAP 517.3 160.998309
+# 3 MOLAP WITH AGGREGATION   5.6   2.011080
 
 # 3 query execution times data frame
 q3df <- data.frame(
@@ -146,3 +162,7 @@ q3df <- data.frame(
   Sd = c(sd(mq3), sd(rq3), sd(maq3))
 )
 q3df
+#                     Type   Mean          Sd
+# 1                  MOLAP  147.0   14.102797
+# 2                  ROLAP 2580.1 1517.735554
+# 3 MOLAP WITH AGGREGATION   21.4    9.347608
